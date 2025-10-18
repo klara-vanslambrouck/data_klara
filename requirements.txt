@@ -1,0 +1,7 @@
+pandas==2.3.3
+ipykernel
+seaborn
+matplotlib
+plotly
+scipy
+spacy
