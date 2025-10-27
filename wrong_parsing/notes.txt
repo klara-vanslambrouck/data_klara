@@ -1,0 +1,11 @@
+Pomocne tabulky:
+friends_lines_evaluated -> line_id + ok/not ok -> řádky z friends_lines_with_colon, které byly vyhodnoceny LLM, zda jsou špatně parsované
+friends_lines_with_colon -> všechny řádky ("text"), které obsahují dvojtečku (bez Scene Directions)
+friends_script_with_eval -> přidaný sloupec "evaluation" od LLM (ok/not ok) + zkontrolováno ručně (Klára)
+friends_script_with_id -> FRIENDS_SCRIPT + nový sloupec "line_id" - unikátní id -> jde popořadě
+S9E8_full_original_marked
+
+
+------ Další issues:
+S1E18 - chybí scéna před titulkami
+text obsahuje: Closing/opening/end credits - vyřadit por textovou analýzu
