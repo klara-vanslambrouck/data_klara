@@ -1,0 +1,103 @@
+original_line_id,text,speaker,season,episode,scene,utterance,EPISODE_ID,evaluation,line_id_global,line_id_local,line_id
+89,Maybe.,Monica Geller,1,1,2,31,S1E1,ok_split,89,89,89
+89,Wait. Your 'not a real date' tonight is with Paul the Wine Guy?,Joey,1,1,2,32,S1E1,ok_split,90,90,90
+2201,"Oh, I uh, just came by to pick up my skull. Well, not mine, but...",Ross Geller,1,9,3,3,S1E9,ok_split,2202,54,54
+2201,Come in.,Susan,1,9,3,4,S1E9,ok_split,2203,55,55
+10023,I know.,Joey Tribbiani,2,15,1,8,S2E15,ok_split,10025,8,8
+10023,Now we can finally watch Green Acres the way it was meant to be seen.,chandler,2,15,1,9,S2E15,ok_split,10026,9,9
+56194,DO NOT DISTURB DO NOT DISTURB!,Chandler Bing,9,4,6,2,S9E4,ok_split,56197,96,96
+57168,It's your favorite sister.,Woman At Door,9,8,1,25,S9E8,ok_split,57171,26,26
+57168,Jill?,Ross and Rachel while looking at each other surprised and shocked,9,8,1,26,S9E8,ok_split,57172,27,27
+57168,Amy.,Woman at door in a sing song voice,9,8,1,27,S9E8,ok_split,57173,28,28
+57191,"No, he was this creepy guy from high school who had this huge crush on her since like the ninth grade.",Amy Green,9,8,1,50,S9E8,ok_split,57196,51,51
+57191,Still me.,Ross with a look of wondering how long this is going to go on on his face,9,8,1,51,S9E8,ok_split,57197,52,52
+57192,"No, I'm not talking about you. It was your fat friends brother with that bad afro, do you remember?",Amy Green,9,8,1,52,S9E8,ok_split,57198,53,53
+57192,"Amy. I'm going to save you some time, ok. All me. Monica and Chandler's Apartment.",Ross starts talking over her 'do you remember' line,9,8,1,53,S9E8,ok_split,57199,54,54
+57258,Oh I was just thinking. You know what would be incredible? If you guys died.,Amy Green,9,8,1,119,S9E8,ok_split,57265,120,120
+57258,Thank you Amy.,Ross first has a look of 'huh' then changes it to sarcastic happy,9,8,1,120,S9E8,ok_split,57266,121,121
+57287,Hey. Amy. You've got to stop doing that.,Rachel Green,9,8,1,149,S9E8,ok_split,57295,150,150
+57287,"Okay, listen I know you're having a little bit of a family crisis, but you don't have to take it out on the plates. I mean, I mean in fact I think that everyone should cut their food like this.",Monica about to have a heart attack,9,8,1,150,S9E8,ok_split,57296,151,151
+57303,"Thats not how you see me, is it?",Monica Geller,9,8,1,166,S9E8,ok_split,57312,167,167
+57303,No you're all about the fun.,Phoebe while cutting a sweet potatoe in the air,9,8,1,167,S9E8,ok_split,57313,168,168
+57321,How hard is it? No shoes on the furniture. Back to Monica and Chandler's apartment. Amy is sitting on a chair by the bay window looking mad.,Monica Geller,9,8,1,185,S9E8,ok_split,57331,186,186
+57321,The producer from Days left a message on my machine asking why I wasn't at the parade. They said everybody's pissed off at me.. And they all got to meet Santa!,Joey groans and gets off the phone,9,8,1,186,S9E8,ok_split,57332,187,187
+57324,"Ooh, what happened?",Phoebe Buffay,9,8,1,189,S9E8,ok_split,57335,190,190
+57324,Oh.. My sister's raccoon.,Joey all nervous and looking down and fiddling with his ear,9,8,1,190,S9E8,ok_split,57336,191,191
+57332,"Oh no thats okay, you're totally right. I don't know anything about disciplining a child. But it did hurt my feelings and I want you to know that when I die, you don't get Joey. Ross walks away with a face of yeah ok.",Chandler Bing,9,8,1,198,S9E8,ok_split,57344,199,199
+57332,"Ucch. Uchh In case you hadn't noticed, I'm not talking to you.",Amy walks over to the couch and sits down next to Rachel,9,8,1,199,S9E8,ok_split,57345,200,200
+57373,Forget the bubblewrap! There isn't time!,Monica Geller,9,8,1,240,S9E8,ok_split,57386,241,241
+57373,Frizzy frizzy frizzy frizzy!!,Rachel starts messing up Amy's hair,9,8,1,241,S9E8,ok_split,57387,242,242
+59394,I am on fire!,Joey Tribbiani,9,16,6,16,S9E16,ok_split,59408,107,107
+59394,Listen...this is really nice. Do you... Did you write a cheque to Monica for two thousand dollars? Did Monica borrow money from you?,Chandler,9,16,6,17,S9E16,ok_split,59409,108,108
+59837,"Yeah me too. oh! I have an idea. Why don't we all pitch in 50 bucks, we'll pool our money together and then if we win, we'll split it!",Rachel Green,9,18,1,17,S9E18,ok_split,59852,18,18
+59837,yeah thats a great idea!,Everyone almost simultaneously except Ross,9,18,1,18,S9E18,ok_split,59853,19,19
+60037,"Mum, please!I know you love your new lips, but I can barely understand you! Would you, please, just let me say goodnight to my daughter?",Rachel Green,9,18,3,33,S9E18,ok_split,60053,219,219
+60037,"""And number 29! Here we go! The Powerball is 7""",TV,9,18,3,34,S9E18,ok_split,60054,220,220
+60111,"God, you're beautiful...why are we fighting this?You know you want it to happen as much as I do.",Joey Tribbiani,9,19,1,1,S9E19,ok_split,60128,2,2
+60111,I want you.I need you.Let me make love to you.,Joey,9,19,1,2,S9E19,ok_split,60129,3,3
+60131,"Well, it was an accident...You know, it's a lot of oil and sometimes the hand just slips!",Phoebe Buffay,9,19,2,10,S9E19,ok_split,60149,23,23
+60131,Have I got a surprise for you? Pack your bags!,Chandler,9,19,2,11,S9E19,ok_split,60150,24,24
+60162,On a bell please! Quietly.. and ACTION!,Director,9,19,3,12,S9E19,ok_split,60181,55,55
+60162,Drake! What are you doing in here?,Olivia,9,19,3,13,S9E19,ok_split,60182,56,56
+60169,"Oh, what about this one.",Dr. Drake Ramoray,9,19,3,20,S9E19,ok_split,60189,63,63
+60169,OH!,Rachel,9,19,3,21,S9E19,ok_split,60190,64,64
+60183,Thank you!,Monica Geller,9,19,4,2,S9E19,ok_split,60204,78,78
+60183,It was. The duck in particular was superb.,2nd Customer,9,19,4,3,S9E19,ok_split,60205,79,79
+60184,Thank you! You haven't said anything...,Monica Geller,9,19,4,4,S9E19,ok_split,60206,80,80
+60184,Actually I do have one small complaint.,3rd Customer,9,19,4,5,S9E19,ok_split,60207,81,81
+60185,Oh..please!I-I welcome criticism.,Monica Geller,9,19,4,6,S9E19,ok_split,60208,82,82
+60185,The musician right outside the restaurant...it's kind of a mood-killer!,3rd Customer,9,19,4,7,S9E19,ok_split,60209,83,83
+60253,"Hi, this is Ross Geller in suite 206. It seems you forgot a couple of things. Could you have some complimentary toiletries sent up to my room? Thank you! Ok. Toothbrush, toothpaste, razor, mouthwash, deodorant, dental floss, band aids, shaving cream, after shave... and I feel like I am forgetting something... Is there anything else you have that I haven't asked for already? Yeah, go ahead, send up some tampons.",Ross Geller,9,19,8,1,S9E19,ok_split,60277,151,151
+60253,What did you get?,Ross,9,19,8,2,S9E19,ok_split,60278,152,152
+60266,"Yes, but the batteries...",Chandler Bing,9,19,8,15,S9E19,ok_split,60291,165,165
+60266,"Thank you, thank you very much!",Chandler,9,19,8,16,S9E19,ok_split,60292,166,166
+60288,It was hard!,Monica Geller,9,19,9,18,S9E19,ok_split,60314,188,188
+60288,Hey!,Phoebe,9,19,9,19,S9E19,ok_split,60315,189,189
+60294,"Oh, ok. Fine, I'll just, I'll take the hat back .",Phoebe Buffay,9,19,9,25,S9E19,ok_split,60321,195,195
+60294,"Hey, so you guys, the funniest thing happened, at work...",Rachel,9,19,9,26,S9E19,ok_split,60322,196,196
+60312,"Oh dude, don't worry about it, I found an unattended maid's car. We're way ahead of the game.",Ross Geller,9,19,10,3,S9E19,ok_split,60340,214,214
+60312,Oh my god.,Ross,9,19,10,4,S9E19,ok_split,60341,215,215
+60319,"Ok, go quick!",Chandler Bing,9,19,10,11,S9E19,ok_split,60348,222,222
+60319,Thank you for a delightful stay.,Ross,9,19,10,12,S9E19,ok_split,60349,223,223
+60319,"Oh, my maple candy!",Ross,9,19,10,13,S9E19,ok_split,60350,224,224
+60321,Food here at 'Javu'..will kill you..the food here at 'Javu' ...will kill you..,Phoebe Buffay,9,19,11,1,S9E19,ok_split,60352,226,226
+60321,"Thank god, it's just you! I thought someone was swinging a bag of cats against the wall.",Monica,9,19,11,2,S9E19,ok_split,60353,227,227
+60338,Yeah! As long as it's free! Food here is ridiculously over-p...,Phoebe Buffay,9,19,11,19,S9E19,ok_split,60370,244,244
+60338,Who's hoping the hand raising thing is still cute enough that you won't hate me?,Phoebe,9,19,11,20,S9E19,ok_split,60371,245,245
+60365,"Well.. hey, you know what else I could use? There's a scene where Drake sneaks into Olivia's bedroom, and she doesn't know he's there - which never happened with us! And he knows he shouldn't be there, but he just wants to look at her... you know? And I remember all those mornings before you even put on your make-up, when I would think to myself, my God, she...is... beautiful... and it hurts so much, cuz I knew I could never tell you but it was worth it just to be there looking at you.",Joey Tribbiani,9,19,12,26,S9E19,ok_split,60398,272,272
+60365,Thanks dude!!!This is GREAT!! Closing credits.,Joey,9,19,12,27,S9E19,ok_split,60399,273,273
+60368,Besides tampons and salt? Ooh! My God! Maple candy! That's so sweet of you. That's weird...it's empty!,Monica Geller,9,19,13,2,S9E19,ok_split,60402,276,276
+60368,"Hi you guys! what's going on, you... you guys wanna hang out...or...? do you...do you guys hear a buzzing?",Ross,9,19,13,3,S9E19,ok_split,60403,277,277
+60393,"Nobody, forget it!",Rachel Green,9,20,1,24,S9E20,ok_split,60428,25,25
+60393,Maybe.,Rachel,9,20,1,25,S9E20,ok_split,60429,26,26
+60421,These aren't suede.,Ross Geller,9,20,2,24,S9E20,ok_split,60457,54,54
+60421,"Excuse me, I'm looking for someone. You don't, by any chance, know a Ross Geller?",Charlie,9,20,2,25,S9E20,ok_split,60458,55,55
+60527,"No, I arranged that...",Ross Geller,9,20,5,39,S9E20,ok_split,60564,161,161
+60527,"Hey you guys, I'm turning in. Have fun.",Joey,9,20,5,40,S9E20,ok_split,60565,162,162
+60546,Where the hell is everybody?,Chandler Bing,9,20,7,1,S9E20,ok_split,60584,181,181
+60546,Why don't you like me?! Chapter One: My first period.,Bitter lady,9,20,7,2,S9E20,ok_split,60585,182,182
+60559,Please... Chandler is the love of my life... ... oooh leather pants! Have Mercy!,Monica Geller,9,20,8,12,S9E20,ok_split,60598,195,195
+60559,"So, eh... it's probably gonna be hard for you to leave Boston, huh?",Ross,9,20,8,13,S9E20,ok_split,60599,196,196
+60601,"Oh, I'm no actor, I'm a professor of palaeontology.",Ross Geller,9,20,10,4,S9E20,ok_split,60641,238,238
+60601,It's a science.,Joey,9,20,10,5,S9E20,ok_split,60642,239,239
+60602,"Oh! Hey well listen, I play a scientist on ""Days"". And my character has just won the Nobel prize.",Dirk,9,20,10,6,S9E20,ok_split,60643,240,240
+60602,"Hey Ross, listen, Dirk was wondering about the woman that you brought and if you guys were together, or...",Joey,9,20,10,7,S9E20,ok_split,60644,241,241
+60607,"Don't worry Joe, I won't come next year!",Monica Geller,9,20,10,12,S9E20,ok_split,60649,246,246
+60607,What have you got there?,Joey,9,20,10,13,S9E20,ok_split,60650,247,247
+60611,"Let me see if I approve any of these clowns. This guy wears a rug . This guy's Canadian . And this guy is in a cult, ok, and it costs you 5,000$ to get to level three and I don't feel any different.",Joey Tribbiani,9,20,10,17,S9E20,ok_split,60654,251,251
+60611,"Pass, pass, oh, pass, double-pass, pass...",Joey,9,20,10,18,S9E20,ok_split,60655,252,252
+60616,Who ?,Rachel Green,9,20,10,23,S9E20,ok_split,60660,257,257
+60616,Me.,Joey,9,20,10,24,S9E20,ok_split,60661,258,258
+60621,"Oh, Very funny... Joey.",Rachel Green,9,20,10,29,S9E20,ok_split,60666,263,263
+60621,"So, how did you enjoy the play?",Chandler,9,20,10,30,S9E20,ok_split,60667,264,264
+60641,Stop going through my stuff !,Ross Geller,9,20,11,10,S9E20,ok_split,60687,284,284
+60641,Hey!,Rachel,9,20,11,11,S9E20,ok_split,60688,285,285
+60653,No.,Rachel Green,9,20,11,23,S9E20,ok_split,60700,297,297
+60653,"Hey Rach, have you seen Charlie anywhere?",Ross,9,20,11,24,S9E20,ok_split,60701,298,298
+60653,I'm smarter than him!,Ross,9,20,11,25,S9E20,ok_split,60702,299,299
+62428,Are you kidding? That's what sisters are for.,Phoebe Buffay,10,2,8,23,S10E2,ok_split,62477,178,178
+62428,"Look at them! Aw. I love you so much. Oh crap, don't wake up, don't wake up!",Frank Jr.,10,2,8,24,S10E2,ok_split,62478,179,179
+64446,Both logic and math are taking a serious hit today.,Ross Geller,10,9,5,9,S10E9,ok_split,64496,117,117
+64446,"Hey, check this out! It's totally you!",Phoebe,10,9,5,10,S10E9,ok_split,64497,118,118
+66568,Rock on!,Ross Geller,10,16,4,6,S10E16,ok_split,66619,79,79
+66568,"Wow, this is quite a spread! What is all this stuff?",Phoebe,10,16,4,7,S10E16,ok_split,66620,80,80
