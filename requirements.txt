@@ -1,4 +1,4 @@
-pandas==2.3.3
+pandas
 ipykernel
 seaborn
 matplotlib
@@ -7,3 +7,7 @@ scipy
 spacy
 WordCloud
 openai
+nltk
+transformers
+tqdm
+torch
