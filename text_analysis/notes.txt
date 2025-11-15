@@ -1,0 +1,31 @@
+Frekvence slov a word clouds:
+
+1) Knihovna spaCy
+Nejprve bylo potřeba promluvy postav tokenizovat a lemmatizovat
+- tzn. text se převede na tokeny / významové celky - "slova"
+- tokeny se pak lemmatizují - tzn. všechny tvary se převedou pod jedno slovo (např. lemma pro tvar "eating" je "eat")
+- zároveň všechny tokeny mají příznak podle toho, jestli jsou interpunkční znak (is_alpha)
+- a také příznak podle toho jestli jsou stop word - to znamená vysoce frekventovaná slova jako předložky, členy atd. (pro analýzu je pak většinou nutné je vyfiltrovat)
+- dále je každému tokenu přidělen tag pro slovní druh (POS)
+
+2) Pomocí spaCy jsem tedy vytvořila dataset, se kterým jsem pak mohla dál pracovat. 
+Jako metadata z původní tabulky scénářů jsem použila:speaker, season, line_id_global
+
+tokens_df  -> one row = one token with all annotations
+
+3) Definovala jsem funkce:
+def get_freq_from_tokens
+def plot_wordcloud_from_freq
+
+4) Zobrazila jsem si 50 enjčastějších slov pro celý seriál pomocí knihovny WordClouds
+- odfiltrovala jsem Scene Directions (v rámci Speaker)
+
+5) Pak jsem detekovala nejčastější podstatná jména hlavních postav a zjistila jsem, která se překrývají. 
+
+6) Zobrazila jsem si top 20 nejčastějších podstatných jmen pro 6 hlavních postav zvlášť (WordClouds)
+- ofiltrovala jsem slova, která se překrývala u všech (11 slov) - protože to byla obecně častá slova
+
+7) Export tabulky nejčastějších slov
+- podstatná jména a vlastní jména
+- 30 slov pro 6 hlavních postav
+- sučástí počet lemmat, relativní frekvence
