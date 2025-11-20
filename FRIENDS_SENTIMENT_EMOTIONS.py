@@ -54,7 +54,7 @@ emotion_model = pipeline(
     device=0 if torch.cuda.is_available() else -1,
     return_all_scores=False,
     max_length=512,
-    truncation=True
+    truncation=TrueA
 )
 
 def get_emotion(text):
