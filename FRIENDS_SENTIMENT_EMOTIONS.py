@@ -1,63 +1,73 @@
-# --- SENTIMENT A EMOCE PRO SERIÁL FRIENDS --- (ChatGPT)
-
-#SENTIMENT
+# --- SENTIMENT A EMOCE PRO SERIÁL FRIENDS --- Chat GPT
 
 import pandas as pd
 from transformers import pipeline
 from tqdm import tqdm
 import torch
 
-# Inicializace progress baru
-tqdm.pandas()
+tqdm.pandas()  # aktivace progress baru
+
+
+# ============================
+# 1) SENTIMENT
+# ============================
 
 # Načtení dat
 df = pd.read_csv("Data/FRIENDS_SCRIPT_CLEAN.csv")
 
-# Načtení modelu
+# Pipeline pro sentiment
 sentiment_model = pipeline(
     "sentiment-analysis",
     model="cardiffnlp/twitter-roberta-base-sentiment-latest",
-    device=0 if torch.cuda.is_available() else -1
+    device=0 if torch.cuda.is_available() else -1,
+    max_length=512,   
+    truncation=True        
 )
 
-# Funkce pro vyhodnocení sentimentu (omezíme délku textu)
 def get_sentiment(text):
     if pd.isna(text) or not isinstance(text, str) or text.strip() == "":
         return None
-    result = sentiment_model(text[:512])[0]  # Roberta neumí víc než cca 512 tokenů
-    return result["label"]
+    try:
+        result = sentiment_model(text)[0] 
+        return result["label"]
+    except Exception:
+        return None
 
-# Výpočet sentimentu s progress barem
 df["sentiment"] = df["text"].progress_apply(get_sentiment)
 
-# Uložení výsledků
+# Uložení mezivýsledku
 df.to_csv("Data/FRIENDS_SENTIMENT_EMOTIONS.csv", index=False)
+print("Sentiment hotový → uložen do FRIENDS_SENTIMENT_EMOTIONS.csv")
 
-print("Hotovo. Výsledky jsou uložené v souboru FRIENDS_SENTIMENT.csv")
 
-#EMOCE
 
-import pandas as pd
-from transformers import pipeline
-from tqdm import tqdm
+# ============================
+# 2) EMOCE
+# ============================
 
-# Inicializace progress baru
-tqdm.pandas()
-
-# Načtení dat se sentimentem
+# Načtení mezivýsledku
 df = pd.read_csv("Data/FRIENDS_SENTIMENT_EMOTIONS.csv")
 
-# Inicializace modelu pro emoce
 emotion_model = pipeline(
     "text-classification",
     model="j-hartmann/emotion-english-distilroberta-base",
-    return_all_scores=False
+    device=0 if torch.cuda.is_available() else -1,
+    return_all_scores=False,
+    max_length=512,
+    truncation=True
 )
 
-# Aplikace modelu na každý text s progress barem
-df["emotion"] = df["text"].progress_apply(lambda x: emotion_model(x[:512])[0]["label"] if isinstance(x, str) else None)
+def get_emotion(text):
+    if pd.isna(text) or not isinstance(text, str) or text.strip() == "":
+        return None
+    try:
+        result = emotion_model(text)[0]
+        return result["label"]
+    except Exception:
+        return None
 
-# Uložení výsledků zpět do stejného souboru
+df["emotion"] = df["text"].progress_apply(get_emotion)
+
+# Uložení finálního výstupu
 df.to_csv("Data/FRIENDS_SENTIMENT_EMOTIONS.csv", index=False)
-
-print("Hotovo! Emoce byly doplněny do FRIENDS_SENTIMENT_EMOTIONS.csv.")
+print("Emoce hotové → vše uloženo do FRIENDS_SENTIMENT_EMOTIONS.csv")
